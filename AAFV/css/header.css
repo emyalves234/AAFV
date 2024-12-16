@@ -1,0 +1,100 @@
+.logo{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+
+@media(max-width: 720px){
+    .logo{
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0.625rem 1.5rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: #442E6D;
+    font-size: 1rem;
+    font-family: Aileron;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.75rem 1rem; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburguer{
+    display: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+}
+
+@media(max-width: 720px){
+    header {
+        display: flex;
+        width: 100%; /* Ou 100vw se quiser que ocupe toda a largura da tela */
+        height: 3.5rem;
+        padding: 0.625rem 1rem;
+        justify-content: space-between; /* Deixa os itens com espaçamento dinâmico */
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    header > .left,
+    header > .right {
+        /* Esses vão ser os dois elementos dentro do header que ficarão nas extremidades */
+        display: flex;
+    }
+    
+    header > .left {
+        flex-grow: 1; /* Esse vai crescer para ocupar o espaço restante */
+        justify-content: flex-start; /* Alinha ao início */
+    }
+    
+    header > .right {
+        flex-grow: 1; /* Esse também cresce para ocupar o espaço restante */
+        justify-content: flex-end; /* Alinha ao final */
+    }
+    nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 5rem;
+        right: 1rem;
+        background-color: #434049;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .hamburguer {
+        display: block;
+    }
+
+    nav a {
+        color: white;
+        font-size: 1.5rem;
+    }
+    .hamburguer{
+        width: 1.5rem;
+        height: 1.5rem;
+        flex-shrink: 0;
+    }
+    .primary{
+        display: none;
+    }
+}

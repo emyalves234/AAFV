@@ -1,0 +1,433 @@
+.nossos-projetos-container {
+    width: 100%;
+    height: 100%;
+    padding: 32px 16px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.nossos-projetos-header {
+    align-self: stretch;
+    text-align: center;
+    color: #442E6D;
+    font-size: 28px;
+    font-family: Aileron;
+    font-weight: 700;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+
+.nossos-projetos-wrapper {
+    align-self: stretch;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nossos-projetos {
+    height: 23.3125rem;
+    padding: 24px 16px;
+    background: #F8F8F8;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nossos-projetos-header-content {
+    align-self: stretch;
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nossos-projetos-title {
+    text-align: center;
+    color: #D38025;
+    font-family: Aileron;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.nossos-projetos-image {
+    align-self: stretch;
+    height: 141px;
+    border-radius: 8px;
+}
+
+.nossos-projetos-description {
+    align-self: stretch;
+    text-align: center;
+    color: #434049;
+    font-size: 16px;
+    font-family: Aileron;
+    font-weight: 300;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+.nossos-projetos-cta-text {
+    text-align: center;
+    color: #D38025;
+    font-size: 16px;
+    font-family: Aileron;
+    font-weight: 900;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.nossos-projetos-dots {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.nossos-projetos-dot {
+    width: 12px;
+    height: 12px;
+    background: #442E6D;
+    border-radius: 9999px;
+}
+
+.nossos-projetos-dot.active {
+    background: #442E6D;
+}
+
+.nossos-projetos-dot:not(.active) {
+    opacity: 0.40;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    display: inline-flex;
+}
+
+.content-wrapper {
+    align-self: stretch;
+    display: flex row;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+.text-content {
+    width: 645px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+}
+
+.headline {
+    align-self: stretch;
+    height: 168px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: flex;
+}
+
+.title {
+    align-self: stretch;
+    color: white;
+    font-size: 40px;
+    font-family: Aileron;
+    font-weight: 700;
+    line-height: 48px;
+    word-wrap: break-word;
+}
+
+.subtitle {
+    align-self: stretch;
+    color: white;
+    font-size: 20px;
+    font-family: Aileron;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+}
+
+.cta-button {
+    height: 48px;
+    padding: 16px;
+    background: #B5171D;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.cta-text {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Aileron;
+    font-weight: 900;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.dots {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background: #E0DCDC;
+    border-radius: 9999px;
+}
+
+.dot.active {
+    background: #414040;
+}
+
+@media(max-width: 720px){
+    .nossos-projetos-container {
+        width: 100%;
+        height: 100%;
+        padding: 32px 16px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 24px;
+    }
+    
+    .nossos-projetos-header {
+        align-self: stretch;
+        text-align: center;
+        color: #442E6D;
+        font-size: 28px;
+        font-family: Aileron;
+        font-weight: 700;
+        line-height: 32px;
+        word-wrap: break-word;
+    }
+    
+    .nossos-projetos-wrapper {
+        align-self: stretch;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .nossos-projetos {
+        height: 23.3125rem;
+        padding: 24px 16px;
+        background: #F8F8F8;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .nossos-projetos-header-content {
+        align-self: stretch;
+        height: 237px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .nossos-projetos-title {
+        text-align: center;
+        color: #D38025;
+        font-family: Aileron;
+        font-weight: 700;
+        line-height: 24px;
+        word-wrap: break-word;
+    }
+    
+    .nossos-projetos-image {
+        align-self: stretch;
+        height: 141px;
+        border-radius: 8px;
+    }
+    
+    .nossos-projetos-description {
+        align-self: stretch;
+        text-align: center;
+        color: #434049;
+        font-size: 16px;
+        font-family: Aileron;
+        font-weight: 300;
+        line-height: 20px;
+        word-wrap: break-word;
+    }
+    
+    .nossos-projetos-cta-text {
+        text-align: center;
+        color: #D38025;
+        font-size: 16px;
+        font-family: Aileron;
+        font-weight: 900;
+        text-transform: uppercase;
+        word-wrap: break-word;
+    }
+    
+    .nossos-projetos-dots {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .nossos-projetos-dot {
+        width: 12px;
+        height: 12px;
+        background: #442E6D;
+        border-radius: 9999px;
+    }
+    
+    .nossos-projetos-dot.active {
+        background: #442E6D;
+    }
+    
+    .nossos-projetos-dot:not(.active) {
+        opacity: 0.40;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 32px;
+        display: inline-flex;
+    }
+    
+    .content-wrapper {
+        align-self: stretch;
+        display: flex row;
+        justify-content: space-between;
+        align-items: center;
+        display: inline-flex;
+    }
+    
+    .text-content {
+        width: 645px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24px;
+        display: inline-flex;
+    }
+    
+    .headline {
+        align-self: stretch;
+        height: 168px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 16px;
+        display: flex;
+    }
+    
+    .title {
+        align-self: stretch;
+        color: white;
+        font-size: 40px;
+        font-family: Aileron;
+        font-weight: 700;
+        line-height: 48px;
+        word-wrap: break-word;
+    }
+    
+    .subtitle {
+        align-self: stretch;
+        color: white;
+        font-size: 20px;
+        font-family: Aileron;
+        font-weight: 400;
+        line-height: 28px;
+        word-wrap: break-word;
+    }
+    
+    .cta-button {
+        height: 48px;
+        padding: 16px;
+        background: #B5171D;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        display: inline-flex;
+    }
+    
+    .cta-text {
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        font-family: Aileron;
+        font-weight: 900;
+        text-transform: uppercase;
+        word-wrap: break-word;
+    }
+    
+    .dots {
+        display: none;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+        display: inline-flex;
+    }
+    
+    .dot {
+        display: none;
+        width: 12px;
+        height: 12px;
+        background: #E0DCDC;
+        border-radius: 9999px;
+    }
+    
+    .dot.active {
+        display: none;
+        background: #414040;
+    }
+}
+
